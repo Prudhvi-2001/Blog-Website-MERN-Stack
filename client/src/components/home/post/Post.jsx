@@ -21,7 +21,7 @@ const Post = ({ post }) => {
           <img class="card__thumb" src="https://i.imgur.com/7D7I6dI.png" alt="" />
           <div class="card__header-text">
             <h3 class="card__title">{addEllipsis(post.title, 20)}</h3>            
-            <span class="card__status">{post.username}</span>
+            {/* <span class="card__status">{post.username}</span> */}
           </div>
         </div>
         <p class="card__description" >{addEllipsis(post.description, 100)}</p>
