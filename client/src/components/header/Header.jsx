@@ -26,7 +26,7 @@ const Header = () => {
         {/* 1st logo part  */}
         <div className="logo">
           <h2>
-                                    <span sty><b>Branch</b></span>logging
+                                    <span sty><b>B</b></span>logging
           </h2>
         </div>
 
